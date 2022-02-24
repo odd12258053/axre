@@ -1,0 +1,15 @@
+[package]
+name = "axre"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dade = {version = "0.1.4", path="../dade"}
+dade_derive = {version = "0.1.4", path="../dade/dade_derive"}
+mime = "0.3.16"
+ntex = { version = "0.5.15", features = ["tokio"] }
+thiserror = "1.0.30"
+
+[dev-dependencies]
